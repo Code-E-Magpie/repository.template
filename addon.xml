@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.template" name="Template Repository" version="1.0.0" provider-name="[B][COLOR silver]C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e[/COLOR][/B]">
+	<extension point="xbmc.addon.repository" name="Template Repository">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/Code-E-Magpie/repository.template/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Code-E-Magpie/repository.template/main/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Code-E-Magpie/repository.template/main/add-ons/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang = "en">A Kodi repository linked to a GitHub repository</summary>
+	<description lang="en">[COLOR dimgray][B]Template Repository[/B]
+[/COLOR]
+Created to illustrate a GitHub repository with a simple folder structure linked to a Kodi repository.
+[COLOR darkgray]
+Distribution of the Template Repository is permitted.
+[/COLOR]
+[COLOR silver]
+IMPORTANT:
+Distribution of C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e add-ons are NOT permitted.
+
+C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e add-ons are exclusively distributed via the 
+Magpie Repository and / or [COLOR silver]C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e[/COLOR] on GitHub.
+
+The code and files of these add-ons are free for use, subject to crediting C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e.
+[/COLOR]</description>
+	<license></license>
+	<language></language>
+	<website></website>
+	<news></news>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+	</extension>
+</addon>
