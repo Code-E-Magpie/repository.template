@@ -63,7 +63,7 @@ The add-ons folder contains a separate folder for the repository and each add-on
 
 Each folder is named using the add-on id e.g. repository.template, plugin.program.code-e-magpie etc.
 
-The folders contain a zip file, an addon.xml file and the other assets defined in the addon.xml e.g. icon.png, fanart.jpg etc. 
+The folders contain a zip file, an addon.xml file (repository only) and the other assets defined in the addon.xml e.g. icon.png, fanart.jpg etc. 
 
 If an addon.xml specifies assets in a sub folder then the folder structure must be copied in the GitHub repository e.g.
 
@@ -180,12 +180,12 @@ Add-on files can now be added:
 # Making changes
 Add a new add-on
 <br/>Top level: amend addons.xml and addons.xml.md5
-<br/>Add-on folder: add add-on zip, add addon.xml and add assets as defined in addon.xml (icon.png, fanart.jpg etc.)
+<br/>Add-on folder: add add-on zip and assets defined in addon.xml (icon.png, fanart.jpg etc.)
 
 
 Change to an add-on (new version)
 <br/>Top level: amend addons.xml and addons.xml.md5
-<br/>Add-on folder: add new add-on zip (retain old add-on zips) and change addon.xml (change assets if required)
+<br/>Add-on folder: add new add-on zip (retain old add-on zips) and change assets if required
 
 
 Change to repository add-on (new version)
