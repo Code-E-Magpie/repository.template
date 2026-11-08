@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="repository.template" name="Template Repository" version="1.0.0" provider-name="[B][COLOR silver]C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e[/COLOR][/B]">
 	<extension point="xbmc.addon.repository" name="Template Repository">
@@ -37,7 +37,7 @@ The code and files of these add-ons are free for use, subject to crediting C[COL
 	</extension>
 </addon>
 
-<addon id = "plugin.program.code-e-magpie" name = "Abacus Program" version = "1.2.1" provider-name = "[B][COLOR silver]C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e[/COLOR][/B]">
+<addon id = "plugin.program.code-e-magpie" name = "Abacus Program" version = "2.4.0" provider-name = "[B][COLOR silver]C[COLOR dimgray]o[/COLOR]d[COLOR dimgray]e[/COLOR]-[COLOR dimgray]E[/COLOR]-[COLOR dimgray]M[/COLOR]a[COLOR dimgray]g[/COLOR]p[COLOR dimgray]i[/COLOR]e[/COLOR][/B]">
 	<requires>
 		<import addon = "xbmc.python" version = "3.0.0"/>
 	</requires>
